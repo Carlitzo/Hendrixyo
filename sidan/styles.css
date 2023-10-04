@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    background-image: url(bilder/170505160212-jimi-hendrix-tease-1.jpg);
+    background-size: cover;
+    height: 100vh;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#wrapper {
+    height: 100%;
+    width: 80vw;
+    
+    background-color: rgba(0,0,0,0.2);
+
+    margin-top: 130px;
+    border-radius: 30px;
+}
+
+@font-face {
+    font-family: BungeeShade;
+    src: url(fonts/Bungee_Shade/BungeeShade-Regular.ttf);
+}
+
+@font-face {
+    font-family: BarlowCondensed;
+    src: url(fonts/Barlow_Condensed/BarlowCondensed-Medium.ttf);
+}
+
+@font-face {
+    font-family: BungeeOutlined;
+    src: url(fonts/Bungee_Outline/BungeeOutline-Regular.ttf);
+}
+
+@font-face {
+    font-family: BarlowSemiCondensed;
+    src: url(fonts/Barlow_Semi_Condensed/BarlowSemiCondensed-Light.ttf);
+}
+
+@font-face {
+    font-family: BarlowCondensedBold;
+    src: url(fonts/Barlow_Condensed/BarlowCondensed-Bold.ttf);
+}
+
+h1 {
+    font-family: BungeeShade;
+    color:lightgray;
+
+    font-size: 80px;
+    margin: 0;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+nav {
+    display: flex;
+
+    margin: 20px;
+    margin-top: 80px;
+    gap: 5px;
+}
+
+nav a {
+    background-color: rgba(238, 231, 231, 0.5);
+
+    flex-basis: 0;
+    flex-grow: 1;
+    padding: 15px;
+    border-radius: 10px;
+
+    text-align: center;
+    font-family: BarlowSemiCondensed;
+    font-size: 30px;
+    color: rgba(0,0,0,0.8);
+    text-decoration: none;
+}
+
+nav > a:nth-of-type(2) {
+    font-family: BarlowCondensedBold;
+}
