@@ -2,7 +2,7 @@ body {
     margin: 0;
     background-image: url(bilder/170505160212-jimi-hendrix-tease-1.jpg);
     background-size: cover;
-    height: 100vh;
+    background-attachment: fixed;
     
     display: flex;
     align-items: center;
@@ -12,11 +12,11 @@ body {
 #wrapper {
     height: 100%;
     width: 80vw;
-    
+
     background-color: rgba(0,0,0,0.2);
 
-    margin-top: 130px;
-    border-radius: 30px;
+    margin-top: 45px;
+    border-radius: 20px;
 }
 
 @font-face {
@@ -59,7 +59,8 @@ nav {
 
     margin: 20px;
     margin-top: 80px;
-    gap: 5px;
+    margin-bottom: 80px;
+    gap: 5px;   
 }
 
 nav a {
@@ -79,4 +80,126 @@ nav a {
 
 nav > a:nth-of-type(2) {
     font-family: BarlowCondensedBold;
+    box-shadow: 0px 0px 10px white;
+    border: 1px solid white;
+    pointer-events: none;
+}
+
+nav > a:hover {
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+}
+
+ul {
+    list-style: none;
+
+    margin-top: 0;
+    margin-bottom: 50px;
+}
+
+h2 {
+    font-family: BungeeOutlined;
+    color: lightgray;   
+    margin: 0;
+    font-size: 30px;
+}
+
+h3 {
+    font-family: BarlowCondensed;
+    margin: 0;
+
+    color: lightgray;
+    font-size: 27px;
+}
+
+p, ul {
+    font-family: BarlowSemiCondensed;
+
+    color: lightgray;
+}
+
+ol {
+    background-color: rgb(255, 217, 40);
+    width: 100%;
+
+    margin-top: 5px;
+    
+    padding: 20px;
+}
+
+.box {
+    background-color: rgba(0,0,0,0.5);
+    border: 1px solid white;
+    border-radius: 20px;
+    margin: 20px;
+    padding: 15px;
+
+    display: flex;
+}
+
+.box > div > p:nth-of-type(1) {
+    padding-top: 40px;
+    margin-bottom: 0;
+}
+
+.box > div > img:nth-of-type(1) {
+    width: 100%;
+
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.box > div:nth-child(1) {
+    width: 60%
+}
+
+.box > div:nth-child(2) {
+    width: 40%
+}
+
+.box > div:nth-child(2) > div {
+    display: flex;
+
+    gap: 10px;
+}
+
+.box > div:nth-child(2) > div > div {
+    display: flex;
+
+    flex-basis: 0;
+    flex-grow: 1;
+}
+
+.box > div:nth-child(2) > div > div:nth-child(1) > ol {
+    border-radius: 0 0 0 20px;
+}
+
+.box > div:nth-child(2) > div > div:nth-child(2) > ol {
+    border-radius: 0 0 20px 0;
+}
+
+.box > div:nth-child(2) > div > div:nth-child(1) > ol > p {
+    padding: 0;
+    margin: 0;
+
+    font-size: 13px;
+    color:rgb(171,94,142);
+}
+
+.box > div:nth-child(2) > div > div:nth-child(2) > ol > p {
+    padding: 0;
+    margin: 0;
+
+    font-size: 13px;
+    color:rgb(171,94,142);
+}
+
+.box > div:nth-child(2) > div > div:nth-child(2) > ol > p:nth-child(1) {
+    font-family: BarlowCondensed;
+    font-size: 20px;
+}
+
+.box > div:nth-child(2) > div > div:nth-child(1) > ol > p:nth-child(1) {
+    font-family: BarlowCondensed;
+    font-size: 20px;
 }
