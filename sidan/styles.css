@@ -11,12 +11,14 @@ body {
 
 #wrapper {
     height: 100%;
-    width: 80vw;
+    width: 80%;
 
     background-color: rgba(0,0,0,0.2);
 
+    
     margin-top: 4vw;
-    border-radius: 20px;
+    border-radius: 2vw;
+    margin-bottom: 4vw;
 }
 
 @font-face {
@@ -50,17 +52,17 @@ h1 {
 
     font-size: 6vw;
     margin: 0;
-    margin-top: 2vw;
-    margin-left: 2vw;
+    margin-top: 2%;
+    margin-left: 2%;
 }
 
 nav {
     display: flex;
 
-    margin: 2vw;
-    margin-top: 6vw;
-    margin-bottom: 6vw;
-    gap: 0.5vw;   
+    margin: 2%;
+    margin-top: 6%;
+    margin-bottom: 6%;
+    gap: 0.5%;
 }
 
 nav a {
@@ -68,8 +70,8 @@ nav a {
 
     flex-basis: 0;
     flex-grow: 1;
-    padding: 1vw;
-    border-radius: 10px;
+    padding: 1.2%;
+    border-radius: 1vw;
 
     text-align: center;
     font-family: BarlowSemiCondensed;
@@ -80,7 +82,7 @@ nav a {
 
 nav > a:nth-of-type(2) {
     font-family: BarlowCondensedBold;
-    box-shadow: 0px 0px 10px white;
+    box-shadow: 0 0 1vw white;
     border: 1px solid white;
     pointer-events: none;
 }
@@ -94,7 +96,7 @@ ul {
     list-style: none;
 
     margin-top: 0;
-    margin-bottom: 4vw;
+    margin-bottom: 7%;
 }
 
 h2 {
@@ -122,9 +124,9 @@ ol {
     background-color: rgb(255, 217, 40);
     width: 100%;
 
-    margin-top: 0.5vw;
+    margin-top: 3%;
     
-    padding: 1vw;
+    padding: 6%;
 }
 
 main {
@@ -132,20 +134,20 @@ main {
 }
 
 main > div > p:nth-of-type(1) {
-    padding-top: 3vw;
+    padding-top: 9%;
     margin-bottom: 0;
 }
 
 main > div > p:nth-of-type(2) {
-    padding-right: 1vw;
+    padding-right: 3%;
     letter-spacing: 0;
 }
 
 main > div > div:nth-child(1) img:nth-of-type(1) {
     width: 100%;
 
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
+    border-top-left-radius: 2vw;
+    border-top-right-radius: 2vw;
 
     position: relative;
 
@@ -157,8 +159,8 @@ main > div > div:nth-child(1) img:nth-of-type(1) {
 main > div > div:nth-child(1) > img:nth-of-type(2) {
     width: 100%;
     height: 100%;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
+    border-top-left-radius: 2vw;
+    border-top-right-radius: 2vw;
 
     position: absolute;
     top: 0%;
@@ -189,7 +191,7 @@ main > div:nth-child(2) {
 main > div:nth-child(2) > div {
     display: flex;
 
-    gap: 0.5vw;
+    gap: 2%;
 }
 
 main > div:nth-child(2) > div > div {
@@ -200,11 +202,11 @@ main > div:nth-child(2) > div > div {
 }
 
 main > div:nth-child(2) > div > div:nth-child(1) > ol {
-    border-radius: 0 0 0 20px;
+    border-radius: 0 0 0 2vw;
 }
 
 main > div:nth-child(2) > div > div:nth-child(2) > ol {
-    border-radius: 0 0 20px 0;
+    border-radius: 0 0 2vw 0;
 }
 
 main > div:nth-child(2) > div > div:nth-child(1) > ol > p {
@@ -236,9 +238,9 @@ main > div:nth-child(2) > div > div:nth-child(1) > ol > p:nth-child(1) {
 .box {
     background-color: rgba(0,0,0,0.5);
     border: 1px solid white;
-    border-radius: 20px;
-    margin: 2vw;
-    padding: 1vw;
+    border-radius: 2vw;
+    margin: 2%;
+    padding: 1.5%;
 }
 
 .box > div {
@@ -246,7 +248,7 @@ main > div:nth-child(2) > div > div:nth-child(1) > ol > p:nth-child(1) {
 
     grid-template-columns: 1fr 1fr 2fr 1fr 1fr;
 
-    gap: 0.3vw;
+    gap: 0.4%;
 }
 
 .box > div > div {
@@ -255,19 +257,21 @@ main > div:nth-child(2) > div > div:nth-child(1) > ol > p:nth-child(1) {
     justify-content: center;
     align-items: center;
 
-    padding: 1vw;
+    padding: 5%;
 }
 
 .box > div > div:nth-child(1){
     background-color: rgb(171,94,142);
 
-    border-radius: 20px 0 20px 20px;
+    border-radius: 2vw 0 2vw 2vw;
+
+    padding: 15%;
 }
 
 .box > div > div:nth-child(2) {
     background-color: rgb(171,94,142);
 
-    border-radius: 20px 20px 20px 0;
+    border-radius: 2vw 2vw 2vw 0;
 
     grid-column: 3 / 4;
 }
@@ -278,10 +282,8 @@ main > div:nth-child(2) > div > div:nth-child(1) > ol > p:nth-child(1) {
     background-image: url(bilder/A-254160-1449578471-4215.jpg);
     background-size: cover;
     background-position: center;
-    border-radius: 0 20px 20px 20px;
+    border-radius: 0 2vw 2vw 2vw;
 
-    height: 12vw;
-    width: 11vw;
 
     align-items: flex-end;
     justify-content: flex-start;
@@ -290,7 +292,7 @@ main > div:nth-child(2) > div > div:nth-child(1) > ol > p:nth-child(1) {
 .box > div > div:nth-child(4) {
     background-color: rgb(171,94,142);
 
-    border-radius: 20px 20px 0 20px;
+    border-radius: 2vw 2vw 0 2vw;
 }
 
 .box > div > div > p {
@@ -307,16 +309,16 @@ main > div:nth-child(2) > div > div:nth-child(1) > ol > p:nth-child(1) {
 .box2 {
     background-color: rgba(0,0,0,0.5);
     border: 1px solid white;
-    border-radius: 20px;
-    margin: 2vw;
-    padding: 1vw;
+    border-radius: 2vw;
+    margin: 2%;
+    padding: 1.5%;
 }
 
 .box2 ul {
     list-style: none;
 
     margin-top: 0;
-    margin-bottom: 4vw;
+    margin-bottom: 8%
 }
 
 .box2 h2 {
@@ -344,9 +346,9 @@ main > div:nth-child(2) > div > div:nth-child(1) > ol > p:nth-child(1) {
     background-color: rgb(29, 135, 156);
     width: 100%;
 
-    margin-top: 0.5vw;
+    margin-top: 3%;
     
-    padding: 1vw;
+    padding: 6%;
 }
 
 section {
@@ -354,19 +356,19 @@ section {
 }
 
 section > div > p:nth-of-type(1) {
-    padding-top: 3vw;
+    padding-top: 9%;
     margin-bottom: 0;
 }
 
 section > div > p:nth-of-type(2) {
-    padding-right: 1.5vw;
+    padding-right: 4%;
 }
 
 section > div > div:nth-child(1) img:nth-of-type(1) {
     width: 100%;
 
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
+    border-top-left-radius: 2vw;
+    border-top-right-radius: 2vw;
 
     position: relative;
 
@@ -378,8 +380,8 @@ section > div > div:nth-child(1) img:nth-of-type(1) {
 section > div > div:nth-child(1) > img:nth-of-type(2) {
     width: 100%;
     height: 100%;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
+    border-top-left-radius: 2vw;
+    border-top-right-radius: 2vw;
 
     position: absolute;
     top: 0%;
@@ -410,7 +412,7 @@ section > div:nth-child(2) {
 section > div:nth-child(2) > div {
     display: flex;
 
-    gap: 0.5vw;
+    gap: 2%;
 }
 
 section > div:nth-child(2) > div > div {
@@ -421,11 +423,11 @@ section > div:nth-child(2) > div > div {
 }
 
 section > div:nth-child(2) > div > div:nth-child(1) > ol {
-    border-radius: 0 0 0 20px;
+    border-radius: 0 0 0 2vw;
 }
 
 section > div:nth-child(2) > div > div:nth-child(2) > ol {
-    border-radius: 0 0 20px 0;
+    border-radius: 0 0 2vw 0;
 }
 
 section > div:nth-child(2) > div > div:nth-child(1) > ol > p {
@@ -457,9 +459,9 @@ section > div:nth-child(2) > div > div:nth-child(1) > ol > p:nth-child(1) {
 .box2 {
     background-color: rgba(0,0,0,0.5);
     border: 1px solid white;
-    border-radius: 20px;
-    margin: 2vw;
-    padding: 1.5vw;
+    border-radius: 2vw;
+    margin: 2%;
+    padding: 1.5%;
 }
 
 .box2 > div {
@@ -467,7 +469,7 @@ section > div:nth-child(2) > div > div:nth-child(1) > ol > p:nth-child(1) {
 
     grid-template-columns: 2fr 1fr 2fr 1fr;
 
-    gap: 0.3vw;
+    gap: 0.5%;
 }
 
 .box2 > div > div {
@@ -476,13 +478,13 @@ section > div:nth-child(2) > div > div:nth-child(1) > ol > p:nth-child(1) {
     justify-content: center;
     align-items: center;
 
-    padding: 1vw;
+    padding: 8%;
 }
 
 .box2 > div > div:nth-child(1){
     background-color: rgb(248, 217, 186);
 
-    border-radius: 20px 20px 20px 0;
+    border-radius: 2vw 2vw 2vw 0;
 
     grid-column: 1 / 2;
 }
@@ -490,7 +492,7 @@ section > div:nth-child(2) > div > div:nth-child(1) > ol > p:nth-child(1) {
 .box2 > div > div:nth-child(2) {
     background-color: rgb(248, 217, 186);
 
-    border-radius: 0 20px 20px 20px;
+    border-radius: 0 2vw 2vw 2vw;
 
     grid-column: 2 / 3;
     grid-row: 1;
@@ -503,9 +505,7 @@ section > div:nth-child(2) > div > div:nth-child(1) > ol > p:nth-child(1) {
     background-image:url(bilder/eddie.jpg);
     background-size: cover;
     background-position: center;
-    border-radius: 0 20px 20px 20px;
-
-    height: 10vw;
+    border-radius: 0 2vw 2vw 2vw;
 
     align-items: flex-end;
     justify-content: flex-start;
@@ -514,7 +514,7 @@ section > div:nth-child(2) > div > div:nth-child(1) > ol > p:nth-child(1) {
 .box2 > div > div:nth-child(4) {
     background-color: rgb(248, 217, 186);
 
-    border-radius: 20px 20px 0 20px;
+    border-radius: 2vw 2vw 0 2vw;
 
     grid-column: 4 / 5;
 
@@ -529,3 +529,88 @@ section > div:nth-child(2) > div > div:nth-child(1) > ol > p:nth-child(1) {
 .box2 > div > div:nth-child(3) > p {
     color: white;
 }
+
+@media (max-width: 500px) {
+    body {
+        background-image: url(bilder/jimimobile.jpg);
+        background-position: center;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+
+
+}
+
+@media (min-width: 1200px) {
+    #wrapper {
+        width: 960px;
+    }
+}
+
+@media (min-width: 800px) and (max-width: 900px) {
+    h1 {
+        font-size: 50px;
+    }
+
+    nav a {
+        font-size: 20px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    h3 {
+        font-size: 17px;
+    }
+
+    main > div:nth-child(2) > div > div:nth-child(1) > ol > p {
+        font-size: 10px;
+    }
+
+    main > div:nth-child(2) > div > div:nth-child(2) > ol > p {
+        font-size: 10px;
+    }
+
+    main > div:nth-child(2) > div > div:nth-child(1) > ol > p:nth-child(1){
+        font-family: navfont3;
+        font-size: 15px;
+    }
+
+    main > div:nth-child(2) > div > div:nth-child(2) > ol > p:nth-child(1) {
+        font-size: 15px;
+    }
+
+    .box > div > div > p {
+        font-size: 10px;
+    }
+
+    .box2 h2 {
+        font-size: 20px;
+    }
+
+    .box2 h3 {
+        font-size: 17px;
+    }
+
+    section > div:nth-child(2) > div > div:nth-child(1) > ol > p {
+        font-size: 10px;
+    }
+
+    section > div:nth-child(2) > div > div:nth-child(2) > ol > p {
+        font-size: 10px;
+    }
+
+    section > div:nth-child(2) > div > div:nth-child(1) > ol > p:nth-child(1){
+        font-size: 15px;
+    }
+
+    section > div:nth-child(2) > div > div:nth-child(2) > ol > p:nth-child(1) {
+        font-size: 15px;
+    }
+
+    .box2 > div > div > p {
+        font-size: 10px;
+    }
+}
+
