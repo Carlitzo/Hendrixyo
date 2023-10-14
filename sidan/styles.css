@@ -7,6 +7,10 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+
+    font-size: 1.5vw;
+    font-family: BarlowSemiCondensed;
+    color: lightgray;
 }
 
 #wrapper {
@@ -48,20 +52,15 @@ body {
 
 h1 {
     font-family: BungeeShade;
-    color:lightgray;
 
     font-size: 6vw;
-    margin: 0;
-    margin-top: 2%;
-    margin-left: 2%;
+    margin: 2% 0 0 2%;
 }
 
 nav {
     display: flex;
 
-    margin: 2%;
-    margin-top: 6%;
-    margin-bottom: 6%;
+    margin: 6% 2% 6%;
     gap: 0.5%;
 }
 
@@ -95,13 +94,11 @@ nav > a:hover {
 ul {
     list-style: none;
 
-    margin-top: 0;
-    margin-bottom: 7%;
+    margin: 0 0 7%;
 }
 
 h2 {
     font-family: BungeeOutlined;
-    color: lightgray;   
     margin: 0;
     font-size: 2.5vw;
 }
@@ -110,14 +107,7 @@ h3 {
     font-family: BarlowCondensed;
     margin: 0;
 
-    color: lightgray;
     font-size: 2vw;
-}
-
-p, ul {
-    font-family: BarlowSemiCondensed;
-
-    color: lightgray;
 }
 
 main {
@@ -127,17 +117,11 @@ main {
 main > div > p:nth-of-type(1) {
     padding-top: 9%;
     margin-bottom: 0;
-    font-size: 1.7vw;
 }
 
 main > div > p:nth-of-type(2) {
     padding-right: 3%;
     letter-spacing: 0;
-    font-size: 1.3vw;
-}
-
-main > div > ul > li {
-    font-size: 1.2vw;
 }
 
 main > div > div:nth-child(1) img:nth-of-type(1) {
@@ -162,8 +146,6 @@ main > div > div:nth-child(1) > img:nth-of-type(2) {
     position: absolute;
     top: 0%;
     left: 0%;
-    
-    z-index: 0;
 }
 
 main > div:nth-child(2) > div:nth-child(1) {
@@ -180,21 +162,12 @@ main > div:nth-child(1) {
 
 main > div:nth-child(2) {
     width: 40%;
-
-    position: relative;
 }
 
 main > div:nth-child(2) > div {
     display: flex;
 
     gap: 3%;
-}
-
-main > div:nth-child(2) > div > div {
-    display: flex;
-
-    flex-basis: 0;
-    flex-grow: 1;
 }
 
 main > div:nth-child(2) > div > div:nth-child(1) {
@@ -219,18 +192,15 @@ main > div:nth-child(2) > div > div:nth-child(2) {
     
     padding: 1vw;
 
-    margin-bottom: 3%;
-    margin-top: 3%
+    margin: 3% 0 3%;
 }
 
 .list p {
-    color:rgb(171,94,142);
+    color:rgb(171,94,142); 
 
     font-size: 1vw;
-    font-family: BarlowSemiCondensed;
-
-    margin: 0;
-    margin-left: 0.5vw;
+    
+    margin: 0 0 0 0.5vw;
     padding: 0.2vw;
 }
 
@@ -263,8 +233,6 @@ main > div:nth-child(2) > div > div:nth-child(2) {
     background-color: rgb(171,94,142);
 
     border-radius: 2vw 0 2vw 2vw;
-
-    padding: 15%;
 }
 
 .box > div > div:nth-child(2) {
@@ -283,7 +251,6 @@ main > div:nth-child(2) > div > div:nth-child(2) {
     background-position: center;
     border-radius: 0 2vw 2vw 2vw;
 
-
     align-items: flex-end;
     justify-content: flex-start;
 }
@@ -296,7 +263,6 @@ main > div:nth-child(2) > div > div:nth-child(2) {
 
 .box > div > div > p {
     color: rgb(255, 217, 40);
-    font-size: 1vw;
 }
 
 .box > div > div:nth-child(3) > p {
@@ -304,9 +270,6 @@ main > div:nth-child(2) > div > div:nth-child(2) {
 }
 
 /*--------------------------------*/
-
-
-
 section {
     display: flex;
 }
@@ -314,25 +277,14 @@ section {
 section > div > p:nth-of-type(1) {
     padding-top: 9%;
     margin-bottom: 0;
-    font-size: 1.5vw;
 }
 
-section > div > p:nth-of-type(2) {
-    padding-right: 4%;
-    font-size: 1.2vw;
-}
-
-section > div > ul > li {
-    font-size: 1.2vw;
-}
 
 section > div > div:nth-child(1) img:nth-of-type(1) {
     width: 100%;
 
     border-top-left-radius: 2vw;
     border-top-right-radius: 2vw;
-
-    position: relative;
 
     z-index: 1;
 
@@ -348,9 +300,6 @@ section > div > div:nth-child(1) > img:nth-of-type(2) {
     position: absolute;
     top: 0%;
     left: 0%;
-    
-
-    z-index: 0;
 }
 
 section > div:nth-child(2) > div:nth-child(1) {
@@ -367,21 +316,12 @@ section > div:nth-child(1) {
 
 section > div:nth-child(2) {
     width: 40%;
-
-    position: relative;
 }
 
 section > div:nth-child(2) > div {
     display: flex;
 
     gap: 3%;
-}
-
-section > div:nth-child(2) > div > div {
-    display: flex;
-
-    flex-basis: 0;
-    flex-grow: 1;
 }
 
 section > div:nth-child(2) > div > div:nth-child(1) {
@@ -394,11 +334,6 @@ section > div:nth-child(2) > div > div:nth-child(2) {
 
 .box2 .list p {
     color: rgb(248, 217, 186);
-}
-
-.box2 .list p:nth-child(1) {
-    font-size: 1.5vw;
-    font-family: BarlowCondensed;
 }
 
 .box2 {
@@ -422,6 +357,7 @@ section > div:nth-child(2) > div > div:nth-child(2) {
 }
 
 .box2 > div > div {
+    background-color: rgb(248, 217, 186);
     display: flex;
 
     justify-content: center;
@@ -431,16 +367,12 @@ section > div:nth-child(2) > div > div:nth-child(2) {
 }
 
 .box2 > div > div:nth-child(1){
-    background-color: rgb(248, 217, 186);
-
     border-radius: 2vw 2vw 2vw 0;
 
     grid-column: 1 / 2;
 }
 
 .box2 > div > div:nth-child(2) {
-    background-color: rgb(248, 217, 186);
-
     border-radius: 0 2vw 2vw 2vw;
 
     grid-column: 2 / 3;
@@ -459,8 +391,6 @@ section > div:nth-child(2) > div > div:nth-child(2) {
 }
 
 .box2 > div > div:nth-child(4) {
-    background-color: rgb(248, 217, 186);
-
     border-radius: 2vw 2vw 0 2vw;
 
     grid-column: 4 / 5;
@@ -468,7 +398,6 @@ section > div:nth-child(2) > div > div:nth-child(2) {
 
 .box2 > div > div > p {
     color: rgb(29, 135, 156);
-    font-size: 1vw;
 }
 
 .box2 > div > div:nth-child(3) > p {
@@ -481,6 +410,8 @@ section > div:nth-child(2) > div > div:nth-child(2) {
         background-position: center;
         background-attachment: fixed;
         background-size: cover;
+
+        font-size: 4vw;
     }
 
     #wrapper {
@@ -505,35 +436,11 @@ section > div:nth-child(2) > div > div:nth-child(2) {
         font-size: 5vw;
     }
 
-    main > div > p:nth-of-type(1){
-        font-size: 4vw;
-    }
-
-    main > div > p:nth-of-type(2) {
-        font-size: 4vw;
-    }
-
-    main > div > ul > li {
-        font-size: 4vw;
-    }
-
-    section > div > ul > li {
-        font-size: 4vw;
-    }
-
     .list p {
         font-size: 3vw;
     }
 
     .list p:first-child {
-        font-size: 4vw;
-    }
-
-    section > div > p:nth-of-type(1) {
-        font-size: 4vw;
-    }
-
-    section > div > p:nth-of-type(2) {
         font-size: 4vw;
     }
 
@@ -547,13 +454,11 @@ section > div:nth-child(2) > div > div:nth-child(2) {
 
     nav {
         gap: 1vw;
-        margin-top: 13vw;
-        margin-bottom: 13vw;
+        margin: 13vw 0 13vw 0;
     }
 
     nav a {
-        padding-top: 3vw;
-        padding-bottom: 3vw;
+        padding: 3vw 0 3vw;
 
         border-radius: 10px;
         
@@ -576,48 +481,44 @@ section > div:nth-child(2) > div > div:nth-child(2) {
 
     .box > div > div:nth-child(1) {
         grid-column: 1 / 3;
-        border-radius: 4vw 0 4vw 4vw;
     }
 
     .box > div > div:nth-child(2) {
         grid-column: 3 / 6;
-        border-radius: 4vw 4vw 4vw 0;
     }
 
     .box > div > div:nth-child(3) {
         grid-column: -4 / -3;
-        border-radius: 0 4vw 4vw 4vw;
     }
 
     .box > div > div:nth-child(4) {
         grid-column: -3 / -1;
-        border-radius: 4vw 4vw 0 4vw;
     }
 
     .box2 > div > div:nth-child(1) {
         grid-column: 1 / 4;
-        border-radius: 4vw 4vw 4vw 0;
     }
 
     .box2 > div > div:nth-child(2) {
         grid-column: 4 / 6;
-        border-radius: 0vw 4vw 4vw 4vw;
     }
 
     .box2 > div > div:nth-child(3) {
         grid-column: -6 / -3;
-        border-radius: 0 4vw 4vw 4vw;
     }
 
     .box2 > div > div:nth-child(4) {
         grid-column: -3 / -1;
-        border-radius: 4vw 4vw 0 4vw;
     }
 }
 
 @media (min-width: 1200px) {
     #wrapper {
         width: 1020px;
+    }
+
+    body {
+        font-size: 17px;
     }
 
     h1 {
@@ -636,48 +537,16 @@ section > div:nth-child(2) > div > div:nth-child(2) {
         font-size: 25px;
     }
 
-    main > div > p:nth-of-type(1){
-        font-size: 20px;
-    }
-
-    main > div > p:nth-of-type(2) {
-        font-size: 17px;
-    }
-
-    main > div > ul > li {
-        font-size: 17px;
-    }
-
-    section > div > ul > li {
-        font-size: 17px;
-    }
-
-    .list p {
-        font-size: 14px;
-    }
-
     .list p:first-child {
         font-size: 20px;
-    }
-
-    section > div > p:nth-of-type(1) {
-        font-size: 20px;
-    }
-
-    section > div > p:nth-of-type(2) {
-        font-size: 17px;
-    }
-
-    .box > div > div > p {
-        font-size: 14px;
-    }
-
-    .box2 > div > div > p {
-        font-size: 14px;
     }
 }
 
 @media (min-width: 800px) and (max-width: 900px) {
+    body {
+        font-size: 12px;
+    }
+
     h1 {
         font-size: 50px;
     }
@@ -694,51 +563,7 @@ section > div:nth-child(2) > div > div:nth-child(2) {
         font-size: 17px;
     }
 
-    main > div > p:nth-child(1) {
-        font-size: 10px;
-    }
-
-    main > div > p:nth-child(2) {
-        font-size: 12px;
-    }
-
-    main > div > ul > li {
-        font-size: 12px;
-    }
-
-    section > div > ul > li {
-        font-size: 12px;
-    }
-
-    section > div > p:nth-child(1) {
-        font-size: 10px;
-    }
-
-    section > div > p:nth-child(2) {
-        font-size: 12px;
-    }
-
-    .list p {
-        font-size: 10px;
-    }
-
     .list p:first-child {
         font-size: 15px;
-    }
-
-    .box > div > div > p {
-        font-size: 10px;
-    }
-
-    .box2 h2 {
-        font-size: 20px;
-    }
-
-    .box2 h3 {
-        font-size: 17px;
-    }
-
-    .box2 > div > div > p {
-        font-size: 10px;
     }
 }
